@@ -1,0 +1,16 @@
+{
+  "name": "cypress-docker",
+  "version": "1.0.0",
+  "description": "docker practice for cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "author": "pp",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cypress": "^4.10.0"
+  }
+}

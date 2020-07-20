@@ -1,0 +1,10 @@
+version: '3'
+services: 
+    e2e: 
+        image: cypress
+        build: .
+        container_name: cypress-docker
+        command: npx cypress run
+        working_dir: /e2e
+        volumes: 
+            - //e/Workspace/cypress_tidbits:/e2e
